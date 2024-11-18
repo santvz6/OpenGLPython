@@ -1,7 +1,7 @@
-# Versión 
+### Versión 
 - **Python 3.11**
 
-# Librerías Utilziadas (incluye .venv)
+### Librerías
 - **PyOpenGL**
 - **PyOpenGL_accelerate**
 - **PyGame**
