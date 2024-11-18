@@ -1,0 +1,11 @@
+#version 330 core
+
+in vec2 fragmentTexCoord;
+
+out vec4 color; // Salida final que será asignada al color del píxel
+
+uniform sampler2D imageTexture; // para cada coordenada establece la textura correspondiente
+
+void main(){
+    color = texture(imageTexture, fragmentTexCoord); 
+}
